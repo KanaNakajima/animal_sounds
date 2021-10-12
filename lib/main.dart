@@ -40,15 +40,14 @@ class AnimalSoundsApp extends StatelessWidget {
                   )),
                   Expanded(
                       child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: <Widget>[
-                      buildButton('pig.mp3', Colors.green, 'images/pig.png'),
-                      buildButton(
-                          'elephant.mp3', Colors.teal, 'images/elephant.png'),
-                      buildButton(
-                          'rooster.mp3', Colors.blue, 'images/rooster.png'),
-                    ],
-                  )),
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: <Widget>[
+                        buildButton('pig.mp3', Colors.green, 'images/pig.png'),
+                        buildButton(
+                            'elephant.mp3', Colors.teal, 'images/elephant.png'),
+                        buildButton(
+                            'rooster.mp3', Colors.blue, 'images/rooster.png'),
+                      ])),
                   Expanded(
                       child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
